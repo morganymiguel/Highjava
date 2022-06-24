@@ -1,0 +1,13 @@
+git init
+git remote add origin 깃주소
+git config --global user.name "Morgan"
+git config --global user.email "morganymiguel@gmail.com"
+git status
+git add .
+git commit -m "코멘드";
+git push origin main
+넣고
+----------------------------------
+빼고
+git pull origin master 혹은 main 사용
+
