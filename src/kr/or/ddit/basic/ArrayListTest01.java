@@ -13,6 +13,7 @@ public class ArrayListTest01 {
 		list1.add('k');
 		list1.add(false);
 		list1.add(123.45);
+		//ArrayList와 list, Vector의 차이
 		
 		System.out.println("size => "+ list1.size());
 		
