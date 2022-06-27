@@ -13,13 +13,13 @@ public class ArrayListTest01 {
 		list1.add('k');
 		list1.add(false);
 		list1.add(123.45);
-		//ArrayList와 list, Vector의 차이
+		
 		
 		System.out.println("size => "+ list1.size());
 		
 		System.out.println("list1: "+ list1);
 		int i = 1;
-		for(Object s : list1) {
+		for(Object s: list1) {
 			System.out.println(i+"번째 자료: "+ list1.get(i-1));
 			System.out.println(i+"번째: "+ s);
 			i++;
